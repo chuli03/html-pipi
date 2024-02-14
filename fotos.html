@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> pipi 💘</title>
+<link rel="icon" href="public/images/corazon.png">
+<link rel="stylesheet" href="nuevoindex.html">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: background-image 1s ease; 
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <button onclick="cambiarImagen()">Cambiar Imagen</button>
+
+    <script>
+        var imagenes = [
+            '1.jpeg',
+            '2.jpeg',
+            '3.jpeg',
+            '4.jpeg',
+            '5.jpeg',
+            '6.jpeg',
+            '7.jpeg',
+            '8.jpeg',
+            '9.jpeg',
+        ];
+
+        function cambiarImagen() {
+            var indiceAleatorio = Math.floor(Math.random() * imagenes.length);
+            var imagenAleatoria = imagenes[indiceAleatorio];
+            document.body.style.backgroundImage = "url('" + imagenAleatoria + "')";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(236, 144, 167);
+    background-image: url("../images/stars-sparkle.gif");
+}
+
+
+h1 {
+    background-color: rgb(240, 64, 93);
+    font-size: 100px ;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    border: solid 5px rgb(209, 43, 43);
+    display: flex;
+    justify-content: space-around;
+}
+
+.container > div {
+    width: 250px;
+    height: 400px;
+}
+
+.botonspoti {
+    width: 150px;
+    height: 50px;
+    border: solid rgb(0, 0, 0) 4px;
+    border-radius: 5%;
+    background-image: linear-gradient(green, white);
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+
+}
+.botonboton {
+    justify-content: flex-end;
+    align-content: flex-end;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.cuarto {
+    border: 10px green solid;
+    background-position: let top;
+    background-repeat: repeat-x;
+}
+
+.botoninvi {
+    width: 150px;
+    height: 50px;
+    border: solid rgb(221, 161, 161) 4px;
+    border-radius: 5%;
+    background-image: linear-gradient(rgb(223, 86, 97), white);
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.spiderboton {
+    width: 150px;
+    height: 50px;
+    border: solid rgb(40, 25, 177) 4px;
+    border-radius: 5%;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(179, 11, 11));
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+.tercero {
+    border: 10px #D28B8B solid;
+    background-position: let top;
+    background-repeat: repeat-x;
+}
+.segundo {
+    border: 10px #d63232 dotted;
+    background-position: let top;
+    background-repeat: repeat-x;
+}
+
+.primero {
+    border: 10px #251f53 solid;
+    background-position: let top;
+    background-repeat: repeat-x;
+}
+
+.conteinerindex2 {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgb(204, 32, 61), white);
+    display: flex;
+
+}
+
+
+.boton {
+    align-content: center;
+}
+
+.botonhijo {
+    width: 45px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+button {
+    width: 50px;
+    height: 50px;
+    background-color: #D30000;
+    color: white;
+    border: none;
+    
+}
+.botonheart {
+    width: 150px;
+    position: relative;
+    left: 905px;
+    top: 410px;
+}
+
+.footerfooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pfooter {
+font-size: 20px;
+height: 120px;
+width: 400px;
+border: solid rgb(255, 255, 255) 2px;
+background-color: rgb(230, 157, 181);
+color: white;
+text-align: center;
+}
